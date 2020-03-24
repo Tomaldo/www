@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .intro-info h2 {
     color: #413e66;
     margin-bottom: 40px;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 700;
 }
 
@@ -469,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
     #hero .intro-info h2 {
-        font-size: 34px;
+        font-size: 30px;
         margin-bottom: 30px;
     }
 }
@@ -1033,7 +1033,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         #team .member:hover .member-info-content {
-            height: 80px;
+            height: 100px;
         }
 
         #team .member h4 {
@@ -1051,22 +1051,23 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         #team .member .social {
-            margin-top: 15px;
+            margin-top: 10px;
         }
 
-            #team .member .social a {
-                transition: none;
-                color: #fff;
-            }
+        #team .member .social a {
+            transition: none;
+            color: #fff;
+        }
 
-                #team .member .social a:hover {
-                    color: #1bb1dc;
-                }
 
-            #team .member .social i {
-                font-size: 18px;
-                margin: 0 2px;
-            }
+        #team .member .social a:hover {
+            color: #1bb1dc;
+        }
+
+        #team .member .social i {
+            font-size: 18px;
+            margin: 0 2px;
+        }
 
     #team .box {
         padding: 5px;
@@ -1479,18 +1480,22 @@ h1, h2, h3, h4, h5, h6 {
         animation: animate-loading 1s linear infinite;
     }
 
-#footer .php-email-form input, #footer .php-email-form textarea {
+#footer .php-email-form input, #footer .php-email-form select, #footer .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
     border: 1px solid #dce1ec;
     font-size: 14px;
 }
 
-    #footer .php-email-form input::focus, #footer .php-email-form textarea::focus {
+    #footer .php-email-form input::focus, #footer .php-email-form select::focus, #footer .php-email-form textarea::focus {
         background-color: #1bb1dc;
     }
 
 #footer .php-email-form input {
+    padding: 20px 15px;
+}
+
+#footer .php-email-form option {
     padding: 20px 15px;
 }
 
